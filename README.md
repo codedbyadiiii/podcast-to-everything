@@ -55,7 +55,7 @@ Upload an audio file in the browser, select languages, and run the pipeline.
 3. In **Advanced settings**, add this secret:
 
 ```toml
-OPENAI_API_KEY = "your-openai-key"
+OPENAI_API_KEY = "AQ.Ab8RN6K_oCadfNv3of4J9XxfJLLb-szOZxGA-Pw3HRyuocpNtg"
 ```
 
 4. Deploy the app and share the generated `streamlit.app` URL.

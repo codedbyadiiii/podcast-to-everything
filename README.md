@@ -48,6 +48,20 @@ streamlit run app.py
 
 Upload an audio file in the browser, select languages, and run the pipeline.
 
+## Deploy on Streamlit Community Cloud
+
+1. Open [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
+2. Create an app from `codedbyadiiii/podcast-to-everything`, branch `main`, file `app.py`.
+3. In **Advanced settings**, add this secret:
+
+```toml
+OPENAI_API_KEY = "your-openai-key"
+```
+
+4. Deploy the app and share the generated `streamlit.app` URL.
+
+The deployed app uses OpenAI when `OPENAI_API_KEY` is configured. Do not commit the key to GitHub. The local-model fallback is intended for local use and can exceed the memory limits of free cloud hosting.
+
 ## Output
 
 Generated files are written to `outputs/`, including the transcript, summary, key points, social posts, translated text, translated MP3 files, and a faithfulness report. These files are ignored by Git because they can be large and may contain private podcast content.

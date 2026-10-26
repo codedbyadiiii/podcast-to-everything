@@ -7,6 +7,7 @@ env/
 .env
 .env.*
 !.env.example
+.streamlit/secrets.toml
 
 # Local inputs and generated pipeline outputs
 podcast.mp3

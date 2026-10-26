@@ -2,6 +2,10 @@
 
 Convert one podcast into a transcript, summary, key points, social posts, translations, translated audio, and a faithfulness report.
 
+## Live Demo
+
+[Open the deployed Streamlit app](https://podcast-to-everything.streamlit.app/)
+
 ## Project Partners
 
 | Name | Student ID |
@@ -58,7 +62,7 @@ Upload an audio file in the browser, select languages, and run the pipeline.
 OPENAI_API_KEY = "AQ.Ab8RN6K_oCadfNv3of4J9XxfJLLb-szOZxGA-Pw3HRyuocpNtg"
 ```
 
-4. Deploy the app and share the generated `streamlit.app` URL.
+4. Deploy the app. The live app is available at [podcast-to-everything.streamlit.app](https://podcast-to-everything.streamlit.app/).
 
 The deployed app uses OpenAI when `OPENAI_API_KEY` is configured. Do not commit the key to GitHub. The local-model fallback is intended for local use and can exceed the memory limits of free cloud hosting.
 

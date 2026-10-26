@@ -1,0 +1,9 @@
+openai-whisper
+openai
+gTTS
+deep-translator
+transformers
+accelerate
+streamlit
+jupyter
+torch

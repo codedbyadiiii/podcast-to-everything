@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Local inputs and generated pipeline outputs
+podcast.mp3
+outputs/
+outputs.zip
+*-executed.ipynb
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+
+# Streamlit runtime files
+streamlit.log

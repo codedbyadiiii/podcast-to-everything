@@ -59,7 +59,7 @@ Upload an audio file in the browser, select languages, and run the pipeline.
 3. In **Advanced settings**, add this secret:
 
 ```toml
-OPENAI_API_KEY = "AQ.Ab8RN6K_oCadfNv3of4J9XxfJLLb-szOZxGA-Pw3HRyuocpNtg"
+OPENAI_API_KEY = "your-openai-key"
 ```
 
 4. Deploy the app. The live app is available at [podcast-to-everything.streamlit.app](https://podcast-to-everything.streamlit.app/).

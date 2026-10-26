@@ -2,6 +2,14 @@
 
 Convert one podcast into a transcript, summary, key points, social posts, translations, translated audio, and a faithfulness report.
 
+## Project Partners
+
+| Name | Student ID |
+| --- | --- |
+| Aryan Anil Dhondage | ADT23SOCB0201 |
+| Aditya Nalge | ADT23SOCB0080 |
+| Aditya Bade | ADT23SOCB0058 |
+
 ## Pipeline
 
 `Audio -> Whisper -> Transcript -> LLM -> Summary / Social Posts -> Translation -> TTS`
